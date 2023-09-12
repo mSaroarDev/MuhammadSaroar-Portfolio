@@ -4,6 +4,7 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { BiLogoFacebookCircle } from "react-icons/bi";
 import Link from "next/link";
+import styles from "../css/animate.module.css";
 
 export default function Hero() {
   return (
@@ -45,8 +46,9 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="py-6">
+            <div>
               <Image
+                className={styles.imageContainer}
                 src={MainPhoto}
                 height={400}
                 width={400}

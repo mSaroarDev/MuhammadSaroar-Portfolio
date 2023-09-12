@@ -1,25 +1,28 @@
-/* hero img animate css */
-.vert-move {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
-}
-.vert-move {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
-}
-@-webkit-keyframes mover {
+/* styles.module.css */
+@keyframes moveUp {
   0% {
     transform: translateY(0);
   }
-  100% {
+  50% {
     transform: translateY(-10px);
   }
+  100% {
+    transform: translateY(0);
+  }
 }
-@keyframes mover {
+
+@keyframes moveDown {
   0% {
     transform: translateY(0);
   }
-  100% {
-    transform: translateY(-10px);
+  50% {
+    transform: translateY(10px);
   }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.image-container {
+  animation: moveUpDown 2s infinite; /* Adjust the animation duration as needed */
 }
