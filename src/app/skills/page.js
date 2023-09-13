@@ -4,7 +4,7 @@ import ProgressBar from "@/components/ProgressBar";
 export default function Skill() {
   return (
     <>
-      <section className="about bg-gray-100 h-screen w-full flex items-center justify-center">
+      <section className="skill bg-gray-100 h-screen w-full flex items-center justify-center">
         <main>
           <Heading heading="Skill" subHeading="My working skills" />
           <div className="flex items-center justify-start gap-20 mt-10">

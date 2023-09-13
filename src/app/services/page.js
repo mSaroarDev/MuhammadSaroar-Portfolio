@@ -1,4 +1,4 @@
-import Heading from "@/components/Heading";
+import Headingwhite from "@/components/Headingwhite";
 import { BiCodeAlt, BiLogoWordpress } from "react-icons/bi";
 import { SiCodeceptjs } from "react-icons/si";
 import { BsFillMenuAppFill } from "react-icons/bs";
@@ -7,9 +7,11 @@ import ServiceCard from "@/components/ServiceCard";
 export default function Services() {
   return (
     <>
-      <section className="about h-screen w-full flex items-center justify-center">
+      <section className="services h-screen w-full flex items-center justify-center">
         <main>
-          <Heading heading="Services" subHeading="Services we provide" />
+          <div className="text-white">
+            <Headingwhite heading="Services" subHeading="Services we provide" />
+          </div>
           <div className="cards flex flex-wrap items-center justify-center mt-10 gap-5">
             <ServiceCard
               icon={<SiCodeceptjs />}

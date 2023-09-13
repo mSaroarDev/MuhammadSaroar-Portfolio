@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ServiceCard({ icon, link, text }) {
   return (
-    <div className="card bg-white w-64 h-40 p-6 border-b-2 border-[#033a80] rounded-md flex flex-col items-center justify-center shadow">
+    <div className="card bg-white w-64 h-40 p-6 border-b-2 border-[#FFAB00] rounded-md flex flex-col items-center justify-center shadow">
       <span className="text-5xl text-[#033a80]">{icon}</span>
       <h2 className="mt-3 text-lg font-bold">{text}</h2>
       <Link
